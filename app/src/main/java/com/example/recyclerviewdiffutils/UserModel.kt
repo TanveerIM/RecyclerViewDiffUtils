@@ -1,3 +1,6 @@
 package com.example.recyclerviewdiffutils
 
-data class UserModel()
+data class UserModel(
+    val id: Int,
+    val userName: String
+)
